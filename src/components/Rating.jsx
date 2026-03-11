@@ -46,13 +46,6 @@ const Rating = ({
       </div>
       {rating > 0 && <p className="feedback">{feedbackMsg[rating - 1]}</p>}
 
-      {/* <button
-        className="submit-btn"
-        onClick={handleSubmit}
-        disabled={rating === 0}
-      >
-        Submit
-      </button> */}
       <Button
         className="submit-btn"
         disabled={rating === 0}
